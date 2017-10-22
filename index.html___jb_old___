@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--Meta-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--Fonts-->
+    <link rel="stylesheet" type="text/css" href="css/fonts/fonts.css" />
+
+    <title>WDA Project</title>
+  </head>
+
+  <body>
+   <header>
+     <div class="container-fluid">
+    <div class="col-md-7 col-md-offset-2">
+      <div class=row>
+        <img class="logo" src="https://s1.postimg.org/7ksg6btxzz/logo.png" alt="WDA logo">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="col-md-7 col-md-offset-4 text-center">
+    <div class="row">
+      <ul class="list-inline list-responsive text-right spacing menu">
+        <li><a href="#HOME">HOME</a></li>
+        <li><a href="#SERVICES">SERVICES</a></li>
+        <li><a href="#TEAM">TEAM</a></li>
+        <li><a href="#SKILLS">SKILLS</a></li>
+        <li><a href="#TESTIMONIALS">TESTIMONIALS</a></li>
+        <li><a href="#CONTACT">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</header>
+  <div class="container-fluid upper-section">
+    <div class="row">
+      <h1 class="text-center">Hi Guys! This is my first web development project! :)<br>What do you think of my work?<br></h1>
+      <button type="button" class="btn-primary btn-responsive"><a href="#">IT'S AWESOME!</a></button>
+    </div>
+</div>
+<div class="container-fluid section-2">
+  <h2>SERVICES WE PROVIDE</h2>
+  <h3>I am using my Ninja Web Development skills to create amazing Web Properties!</h3>
+</div>
+
+    </body>
+</html>
