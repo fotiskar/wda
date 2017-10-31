@@ -1,6 +1,10 @@
-header {
-    background-color: #87509c;
+body {
+    margin-top: 70px;
 }
+
+/* header {
+    background-color: #87509c;
+} */
 
 ul.menu {
     padding-bottom: 14px;
@@ -15,16 +19,20 @@ li a {
     color: #ffffff;
 }
 
-.logo {
+/* .logo {
     padding-top: 14px;
     padding-bottom: 20px;
-}
+} */
+
+
 #section-1 {
+    
     background-color: #87509c;
+
 }
 h1 {
-    padding-top: 50px;
-    padding-bottom: 150px;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
     font-family: zona_proregular,sans-serif;
     color: #ffffff;
 }
@@ -408,5 +416,44 @@ h4.skills {
     color: #3c4761;
     font-family: zona_proregular, sans-serif;
     text-align: center;
+
+}
+
+
+.navbar-trans {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-bottom: none !important;    
+}
+
+
+.nav-color {
+    
+    color: white !important;
+}
+
+#circle1 {
+    display: inline !important;
+}
+
+#circle2 {
+    display: inline !important;
+
+}
+
+#circle3 {
+display: inline !important;
+}
+
+#circle4 {
+    display: inline !important;
+}
+
+.imputss {
+    margin-bottom: 1rem !important;
+}
+
+textarea {
+    width: 373px;
+    margin-bottom: 1rem !important;
 
 }

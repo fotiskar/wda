@@ -1,60 +1,65 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!--JQuery-->
-    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    
 
     <!--Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src=" https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src=" https://use.fontawesome.com/dc52ad11bc.js"></script>
+    
 
     <!--Meta-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    
 
     <!--Fonts-->
-    <link rel="stylesheet" type="text/css" href="css/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
 
     <title>WDA Project</title>
 </head>
 <body>
-<header>
+            
+<nav class="navbar navbar-default navbar-fixed-top navbar-trans">
     <div class="container-fluid">
-        <div class="col-md-7 col-md-offset-2">
-            <div class=row>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#section-1">
                 <img class="logo" src="https://s1.postimg.org/7ksg6btxzz/logo.png" alt="WDA logo">
-            </div>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="nav-color">Home</a></li>
+                <li><a href="#" class="nav-color">Home</a></li>
+                <li><a href="#" class="nav-color">Home</a></li>
+                <li><a href="#" class="nav-color">Home</a></li>
+                <li><a href="#" class="nav-color">Home</a></li>
+                <li><a href="#" class="nav-color">Home</a></li>                   
+            </ul>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="col-md-7 col-md-offset-4 text-center">
-            <div class="row">
-                <ul class="list-inline list-responsive text-right spacing menu">
-                    <li><a href="#HOME">HOME</a></li>
-                    <li><a href="#SERVICES">SERVICES</a></li>
-                    <li><a href="#TEAM">TEAM</a></li>
-                    <li><a href="#SKILLS">SKILLS</a></li>
-                    <li><a href="#TESTIMONIALS">TESTIMONIALS</a></li>
-                    <li><a href="#CONTACT">CONTACT</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</header>
-<div id="section-1" class="container-fluid text-center">
+</nav>
+
+    
+<section id="section-1">
+<div class="container-fluid text-center">
     <h1>Hello Guys! This is my first Web Development Project! :)<br>
         What do you think of my work?<br>
     </h1>
-
     <button type="button" class="btn-primary btn-responsive"><a href="#">IT'S AWESOME!</a></button>
 </div>
+</section>
+
+
 <div id="section-2" class="container-fluid text-center">
     <h2>SERVICES WE PROVIDE</h2>
     <div class="line-black text-center"><span></span> </div>
@@ -114,6 +119,16 @@
     <h3 class="skills">WE HAVE SKILLS</h3>
     <div class="skillsline-black text-center"><span></span> </div>
     <h4 class="skills">Lorem ipsum dolor sit amet, ut ubique regione eam, eam te aliquip deterruisset. Eum aeterno nominati id. Probo postulant mel ea. No eum docendi constituto.</h4>
+    
+        <div id="circle1"></div>
+        <div id="circle2"></div>
+        <div id="circle3"></div>
+        <div id="circle4"></div>
+  
+
+    
+         
+    
 
 </div>
 <div id="section-4" class="text-center">
@@ -174,7 +189,7 @@
 
         <h6 class="text-center spacing">Kefalinias 46,11251,Athina, Attiki, Tel: 2108203827 </h6>
         <form class="text-center lower" title="contact-form">
-            <div class="">
+            <div class="imputss">
                 <input type="text" placeholder="First Name">
 
                 <input type="email" placeholder="Your email">
@@ -197,6 +212,31 @@
     </ul>
 </div>
 
+
+<!--JQuery-->
+<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src=" https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src=" https://use.fontawesome.com/dc52ad11bc.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+
+<script>
+        
+                $('#circle1').circleProgress({
+                  value: 0.75,
+                });
+                
+                  $('#circle2').circleProgress({
+                        value: 0.75,
+                    });
+                      $('#circle3').circleProgress({
+                            value: 0.75,
+                        });
+                         $('#circle4').circleProgress({
+                                value: 0.75,
+                            });
+</script>
 
 </body>
 
